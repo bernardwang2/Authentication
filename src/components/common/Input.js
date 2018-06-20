@@ -13,6 +13,8 @@ const Input = ( { label, value, onChangeText, placeholder, secureTextEntry }) =>
         value={value}
         onChangeText={onChangeText}
         secureTextEntry={secureTextEntry}
+        underlineColorAndroid='rgba(0,0,0,0)'
+        autoCapitalize = 'none'
       />
     </View>
   );
@@ -25,7 +27,7 @@ const styles ={
     paddingLeft: 5,
     fontSize: 18,
     lineHeight: 23,
-    flex: 2
+    flex: 2.
   },
   labelStyle: {
     fontSize: 18,
